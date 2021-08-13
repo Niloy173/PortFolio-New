@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoilo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav_logo">Niloy</a>
+        </div>
+
+        <div class="nav_menu" id="navId">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skill" class="nav_link">Skill</a>
+            </li>
+            <li class="nav_item">
+              <a href="#work" class="nav_link">WorkFlow</a>
+            </li>
+            <!-- <li class="nav_item"><a href="" class="nav_link"></a></li> -->
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="toggleId">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home bd-grid" id="home">
+        <!-- left side profile data -->
+        <div class="home_data">
+          <h1 class="home_title">
+            Hi <br />
+            I'am <span class="home_title-color">Niloy </span><br />
+            <!-- <span class="home_sub_title">Think Big Live Big</span> -->
+          </h1>
+
+          <a
+            href="https://drive.google.com/file/d/12TzNEkhcU5TG-Wu8yuCSB_KNloelLmbk/view?usp=sharing"
+            class="button"
+            >Hire Me</a
+          >
+        </div>
+
+        <!-- social media section -->
+        <div class="home_social">
+          <a href="https://github.com/Niloy173" class="home_social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/niloy-saha-594558201/"
+            class="home_social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+
+        <div class="home_img">
+          <img src="./Images/logo.png" alt="profile" />
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section class="about section" id="about">
+        <h2 class="section-title about-title">About</h2>
+
+        <div class="about_container bd-grid">
+          <div class="about_img">
+            <img src="./Images/IMG_20201212_230149_579.jpg" alt="about image" />
+          </div>
+
+          <div>
+            <h2 class="about_subtitle">
+              I'am <span class="home_title-color">Niloy</span>
+            </h2>
+
+            <!-- <p >
+              Hello, My name is Niloy Saha.My Current focuses on understanding
+              the structure or the algorithm on better programming and coming up
+              with ideas through study which can be a huge improvement for our
+              digital country
+            </p> -->
+
+            <p class="about_text">
+              I am a person who believes in hard working and great at time
+              management .Always eager to learn new skills , gather experience
+              and try to use creative approach to handle multiple tasks on daily
+              basis. I have experience working as part of a team and
+              individually. Strong relationship with people for better
+              communication is the key to deliver the best result.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- skill container -->
+      <section class="skill section" id="skill">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills_container bd-grid_two">
+          <div>
+            <h2 class="skills_sub_title">Professional Skills</h2>
+            <p class="skills_text">
+              A viable resume rundown as you can see the expert abilities that I
+              have accomplished as of not long ago which is undoubtedly not
+              adequate but rather to the extent time documents I'm taking in and
+              gathering experience from both group and hands-on work.
+            </p>
+
+            <div class="skills_data">
+              <div class="skills_name">
+                <i class="bx bxl-c-plus-plus skills_icon"></i>
+                <span class="skills_name">C/C++</span>
+              </div>
+
+              <div>
+                <span class="skills_percentage">80%</span>
+              </div>
+
+              <div class="skills_bar skills_c"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_name">
+                <span class="skills_name">JAVA</span>
+              </div>
+
+              <div>
+                <span class="skills_percentage">70%</span>
+              </div>
+
+              <div class="skills_bar skills_java"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_name">
+                <i class="bx bxl-javascript skills_icon"></i>
+                <span class="skills_name">JAVASCRIPT</span>
+              </div>
+
+              <div>
+                <span class="skills_percentage">50%</span>
+              </div>
+
+              <div class="skills_bar skills_js"></div>
+            </div>
+          </div>
+
+          <!-- <div>
+            <img src="/Images/pro.png" alt="professional" class="skill_image" />
+          </div> -->
+        </div>
+      </section>
+
+      <!-- work section -->
+      <section class="work section" id="work">
+        <h2 class="section-title">Workflow</h2>
+
+        <div class="project_container">
+          <div class="column">
+            <h2 class="project-title">Sorting Visualization</h2>
+            <p class="project_details">
+              This project is based on sorting visualization where an algorithm
+              is proposed to sort the pixels to get the complete picture. I have
+              used the JFrame for the GUI interface and with the help of
+              <span class="sort_name">Bubble Sort</span> pixels are getting
+              sorted within a particular time ratio.<span
+                ><a
+                  href="https://github.com/Niloy173/Sorting-Visualization"
+                  class="check"
+                  >See more for details</a
+                ></span
+              >
+            </p>
+          </div>
+
+          <div class="column">
+            <h2 class="project-title">Math Solution Book</h2>
+            <p class="project_details">
+              This is an
+              <span class="sort_name">android application</span> project where
+              the purpose is to create a math solution book for classes 9-10
+              based on the textbook in our country. Teamwork and good efficiency
+              of working under this project bring good experience throughout the
+              work.<span
+                ><a
+                  href="https://github.com/Niloy173/MathGuideBook"
+                  class="check"
+                  >See more for details</a
+                ></span
+              >
+            </p>
+          </div>
+
+          <div class="column">
+            <h2 class="project-title">Web Application</h2>
+            <p class="project_details">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
+              cumque quia vitae nemo accusamus? Rerum delectus eveniet repellat
+              illum id, cupiditate, quos excepturi sed, libero perferendis quo
+              molestias quod voluptatibus.<span
+                ><a href="" class="check">See more for details</a></span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!---------CONTACT----->
+      <div id="contact" class="contact-me">
+        <p>If You Have any Project In Your Mind.</p>
+        <button>
+          <a href="mailto:niloysaha173@gmail.com"> Contact Me</a>
+        </button>
+      </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer_social">
+        <a
+          href="https://www.facebook.com/profile.php?id=100007341856783"
+          class="footer_icon"
+          ><i class="bx bxl-facebook"></i>
+        </a>
+        <a href="https://twitter.com/Niloy1073" class="footer_icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://discord.com/channels/@me" class="footer_icon"
+          ><i class="bx bxl-discord"></i
+        ></a>
+      </div>
+
+      <p>&#169;2021 copyright all right reserved</p>
+    </footer>
+
+    <!-- flexiblity and animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main script -->
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>
